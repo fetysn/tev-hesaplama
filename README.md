@@ -2,7 +2,10 @@
 
 Telafi Edici Vergi (TEV / vergi kodu 61) için satır bazında ön hesaplama, kontrol ve raporlama uygulaması.
 
-Canlı uygulama: [tev-hesaplama-tr.fetysn.chatgpt.site](https://tev-hesaplama-tr.fetysn.chatgpt.site)
+Canlı uygulama:
+
+- [GitHub Pages](https://fetysn.github.io/tev-hesaplama/)
+- [OpenAI Sites](https://tev-hesaplama-tr.fetysn.chatgpt.site)
 
 ## Özellikler
 
@@ -64,6 +67,10 @@ npm run lint
 
 GitHub Actions, her `push` ve `pull request` işleminde projeyi otomatik olarak kurar ve derler.
 
+## GitHub Pages yayını
+
+`.github/workflows/deploy-pages.yml` iş akışı `main` dalına gönderilen her güncellemede statik siteyi üretir ve GitHub Pages'e yayınlar. Depoda `Settings → Pages → Source` alanı **GitHub Actions** olarak seçilmelidir.
+
 ## Proje yapısı
 
 ```text
@@ -97,4 +104,3 @@ Adım adım aktarım ve uzak depo ayarları için [GitHub Aktarım Rehberi](docs
 ## Lisans
 
 Bu proje izin alınmadan kopyalanamaz, dağıtılamaz veya ticari amaçla kullanılamaz. Ayrıntılar için [LICENSE](LICENSE) dosyasına bakın.
-
